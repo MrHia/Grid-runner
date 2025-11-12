@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9129162842903432698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5662230420787241299}
+  - component: {fileID: 1712309792212606000}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5662230420787241299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9129162842903432698}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1712309792212606000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9129162842903432698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46aa750609fb9074fa554c3aad7969ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlackCube: {fileID: 2960152273109041384, guid: e11196fa5971582469a5d05c8bc35db7, type: 3}
+  WhiteCube: {fileID: 8729769837459179875, guid: 3a196c33ed0f0d441a8841205b339aa1, type: 3}
+  Spawn: {fileID: 478070198308704147, guid: d1c390bf9a803f645935efc39d6d48f0, type: 3}
+  Dest: {fileID: 1632045511639579218, guid: 74b68a1d632140d4781471538285e92a, type: 3}
+  Enemy:
+  - {fileID: 5344662814597325401, guid: e87e6ad9f11e86944a4f1cd011c95e3c, type: 3}
+  Fence:
+  - {fileID: 5412402231670620485, guid: 6ce4424b329c37a46b46afefb0313aee, type: 3}
+  - {fileID: 5699165730490756857, guid: ffdb8269aca3d5b459c25e4887cf5cd8, type: 3}
+  Obstacle:
+  - {fileID: 8225765696289790465, guid: 70bef1aa9b9875047bbcce09c01f5f87, type: 3}
+  - {fileID: 6864235542738828253, guid: 7510b7772b58791489522026fe482b6d, type: 3}
+  - {fileID: 6907503409898625229, guid: c0d9b8c4a5acee141b9ec3e1e2741561, type: 3}
+  - {fileID: 5126999355461405899, guid: ade54d08e7f06b14e816391fd8cf1135, type: 3}
+  - {fileID: 4776964048532825558, guid: 06db1de289adca34da03bb1ed18f9620, type: 3}
+  - {fileID: 3671043263805606415, guid: ef31e2340d7831c4893ba2d08864b8bc, type: 3}
+  - {fileID: 2782910742502111746, guid: a87e51f2e9405f54bb390cd26da67682, type: 3}
+  Flame: {fileID: 1897163340870165877, guid: 84bc76f5ed5fbb5459becd4fc2b00a2a, type: 3}
+  Hole: {fileID: 5040199490928898392, guid: 02282d80837fe4846afecd60b6aa5bb5, type: 3}
+  Effects:
+  - {fileID: 5827571576035763285, guid: e32f30edd59f85249a9456fb54cb58e2, type: 3}
+  - {fileID: 3054053704414163978, guid: 80d7638a4e41dcc4a9ab2fe27e7373b3, type: 3}
+  MapSizeWidth: 11
+  MapSizeHeight: 11
+  numberEnemy: 0
+  numberLevelEachChapter: 1e0000001e000000
