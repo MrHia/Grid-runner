@@ -9,7 +9,7 @@
     },
     {
         "id": 101,
-        "price_gold": 7000,
+        "price_gold": 1000,
         "price_money": 0,
         "product_id": "",
         "product_name": "Male 1",
@@ -17,7 +17,7 @@
     },
     {
         "id": 102,
-        "price_gold": 7000,
+        "price_gold": 1000,
         "price_money": 0,
         "product_id": "",
         "product_name": "Female 1",
@@ -25,7 +25,7 @@
     },
     {
         "id": 103,
-        "price_gold": 7000,
+        "price_gold": 1000,
         "price_money": 0,
         "product_id": "",
         "product_name": "Male 2",
@@ -34,7 +34,7 @@
 
     {
         "id": 104,
-        "price_gold": 7000,
+        "price_gold": 1000,
         "price_money": 0,
         "product_id": "",
         "product_name": "Male 3",
@@ -42,7 +42,7 @@
     },
     {
         "id": 105,
-        "price_gold": 7000,
+        "price_gold": 1000,
         "price_money": 0,
         "product_id": "",
         "product_name": "Male 4",
@@ -50,7 +50,7 @@
     },
     {
         "id": 106,
-        "price_gold": 10000,
+        "price_gold": 1500,
         "price_money": 0,
         "product_id": "",
         "product_name": "Male 5",
@@ -62,7 +62,7 @@
 
     {
         "id": 1001,
-        "price_gold": 15000,
+        "price_gold": 2500,
         "price_money": 0,
         "product_id": "",
         "product_name": "Lollipop",
@@ -70,7 +70,7 @@
     },
     {
         "id": 1002,
-        "price_gold": 15000,
+        "price_gold": 2500,
         "price_money": 0,
         "product_id": "",
         "product_name": "Pan",

@@ -7714,6 +7714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6202501765713474426}
   - component: {fileID: 6202501765713474424}
+  - component: {fileID: 8101952764893358409}
   m_Layer: 5
   m_Name: main
   m_TagString: Untagged
@@ -7754,6 +7755,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6202501765713474421}
   m_CullTransparentMesh: 1
+--- !u!114 &8101952764893358409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6202501765713474421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97afc556caea1c44969477eb7ddec74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Crystal.SafeArea
+  ConformX: 1
+  ConformY: 1
+  Logging: 0
 --- !u!1 &6202501765877751737
 GameObject:
   m_ObjectHideFlags: 0
